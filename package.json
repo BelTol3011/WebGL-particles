@@ -1,0 +1,31 @@
+{
+  "name": "webgl-particles",
+  "version": "1.0.0",
+  "description": "Particle-Systems with WebGL",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --host 0.0.0.0",
+    "build": "rimraf dist && webpack --config webpack.production.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BelTol3011/WebGL-particles.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BelTol3011/WebGL-particles/issues"
+  },
+  "homepage": "https://github.com/BelTol3011/WebGL-particles#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.7.4",
+    "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^4.0.0",
+    "rimraf": "^3.0.0",
+    "ts-loader": "^6.2.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
