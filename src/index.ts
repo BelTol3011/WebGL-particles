@@ -8,10 +8,10 @@ const canvas = document.getElementById("canvas") as HTMLCanvasElement;
 const gl = canvas.getContext("webgl") as WebGLRenderingContext;
 
 const positions = [
-    -1, -1, 0, 0, 0, 0, 0, 0,
-    -1, 1, 0, 0, 1, 1, 0, 0,
-    1, -1, 0, 1, 0, 0, 1, 0,
-    1, 1, 0, 1, 1, 0, 0, 1
+    -1, -1, 0,   0, 0,   0, 0, 0,
+    -1,  1, 0,   0, 1,   1, 0, 0,
+     1, -1, 0,   1, 0,   0, 1, 0,
+     1,  1, 0,   1, 1,   0, 0, 1
 ]
 
 const vertexShader = createShader(gl, gl.VERTEX_SHADER, vertex_shader_source);
